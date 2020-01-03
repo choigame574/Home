@@ -1,0 +1,526 @@
+@charset "utf-8";
+/* CSS Document */
+.wow:first-child 
+	{
+      visibility: hidden;
+    }
+#container
+{
+	width: 1280px;
+	height: 6000px;
+	margin: 0 auto;
+	
+}
+header
+{
+	width: 1280px;
+	height: 80px;
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	z-index: 1111;
+	margin: 0 auto;
+	
+}
+.logo 
+{
+	width: 380px;
+	height: 80px;
+	float: left;
+	text-align: center;
+	
+}
+nav
+{
+	width: 900px;
+	height: 80px;
+	float:right;
+	text-align:left;
+	font-size: 25px;
+
+}
+nav ul
+{
+	list-style: none;
+}
+nav ul li a
+{
+	float: left;
+	padding: 20px 0px 0px 20px;
+	color: white;
+	text-decoration: none;
+	
+}
+nav ul li a:hover
+{
+	background-color: orange;
+	text-decoration:underline;
+}
+nav ul li
+{
+	float: left;
+	position: relative;
+	
+}
+nav ul li ul
+{
+	position: absolute;
+	z-index: 2000;
+	visibility: hidden;	
+	padding:40px 20px 0px 30px;
+	
+	
+}
+nav ul li:hover ul
+{
+	visibility: visible;
+}
+
+.phangioithieu
+{
+	width: 1280px;
+	height: 700px;
+	
+}
+.hinhgioithieu
+{
+	width: 580px;
+	height: 700px;
+	float: left;
+}
+.textgioithieu
+{
+	width: 700px;
+	height: 700px;
+	float: right;
+	
+}
+.texttrai
+			{
+				width: 200px;
+				height: 300px;
+				float: left;
+			}
+		.textphai
+			{
+				width: 400px;
+				height: 300px;
+				float: left;	
+			}
+.texttrenduoi
+{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	
+}
+.texttren
+{
+	margin: 0 auto;
+	width: 1280px;
+	height: 50px;
+	text-align: center;
+	z-index: -1;
+	position: absolute;
+	
+}
+.textduoi
+{
+	width: 1280px;
+	height: 100px;
+	opacity: 0.2;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	top:10px;
+	font-size: 100px;
+	
+}
+.phanthongtin
+{
+	width: 1280px;
+	height: 1150px;
+}
+.hinhthongtin
+{
+	width: 546px;
+	height: 311px;
+	margin:50px 0px 10px 50px;	
+	float: left;	
+}
+.hinhthongtin img
+			{
+       			transition:all 0.3s ease;
+				opacity: 1;
+				-webkit-transform: scale(1);
+				-ms-transform: scale(1);
+				transform: scale(1);
+				
+			}
+.hinhthongtin img:hover
+			{
+       			opacity: 0.5;
+				-webkit-transform: scale(0.8);
+				-ms-transform: scale(0.8);
+				transform: scale(0.8);
+			}
+.texttron
+{
+	width: 200px;
+	height: 50px;
+	margin-left: 520px;
+	padding-top: 10px;
+	background-color:#F9BA33;
+	text-align: center;
+	border-radius: 30px;
+	
+}
+.phanservice
+{
+	width: 1280px;
+	height: 650px;
+}
+.squarservice
+{
+	width: 353px;
+	height: 223px;
+	margin:50px 0px 10px 50px;	
+	float: left;
+	
+}
+.squarservice img
+			{
+       			transition:all 0.3s ease;
+				opacity: 1;
+				-webkit-transform: scale(1);
+				-ms-transform: scale(1);
+				transform: scale(1);
+				
+			}
+.squarservice img:hover
+			{
+       			opacity: 0.5;
+				-webkit-transform: scale(0.8);
+				-ms-transform: scale(0.8);
+				transform: scale(0.8);
+			}
+.label
+	{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		top: 150px;
+		left: 100px;
+	}
+.label img
+	{
+		transition:all 0.3s ease;
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+.label img:hover
+	{
+		
+		opacity: 1;
+		transform: translateY(0px);
+	}
+
+.textskillbar
+{
+	width: 1280px;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	
+}
+.textskillbar1
+{
+	margin: 0 auto;
+	width: 1280px;
+	height: 50px;
+	text-align: center;
+	z-index: -1;
+	position: absolute;
+	text-decoration-style: solid;
+}
+.textskillbar2
+{
+	width: 1280px;
+	height: 100px;
+	opacity: 0.2;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+	position: relative;
+	top:-30px;
+	font-size: 150px;
+	text-decoration-style: solid;
+}
+.phanskillbar
+{
+	width: 1280px;
+	height: 300px;
+}
+.skillbar
+{
+	width: 50%;
+	height: 250px;
+	float: left;
+	text-align: left;
+	
+	
+}
+* {box-sizing: border-box}
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.photoshop
+{
+	width: 90%;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #F9BA33;
+	
+}
+.html5 
+{
+	width: 95%;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #F9BA33;
+}
+.worldpress
+{
+	width: 70%;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #F9BA33;
+}
+.jquery
+{
+	width: 100%;
+	background-color: #F9BA33;
+}
+.css3
+{
+	width: 90%;
+	background-color: #F9BA33;
+}
+.seo 
+{
+	width: 80%;
+	background-color: #F9BA33;
+}
+
+
+.carousel
+{
+	width: 100%;
+	height: 200px;
+	
+}
+.phanform
+{
+	width: 1280px;
+	height: 550px;
+	
+}
+.form
+{
+	width: 680px;
+	height: 550px;
+	border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	float: right;
+		
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.hinhform
+{
+	width: 600px;
+	height: 550px;
+	float: left;
+}
+
+.slider
+{
+	width: 1280px;
+	height: 700px;
+	
+}
+.footer
+{
+	width: 1280px;
+	height: 435px;
+}
+.textfooter
+{
+	width: 300px;
+	height: 435px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+.textfooter1
+{
+	width: 250px;
+	height: 435px;
+	text-align: left;
+	margin-left: 40px;
+	float: left;
+	
+}
+textfooter1 ul li
+{
+	list-style: square;
+}
+textfooter1 ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+/*Slider*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width : 305px ){
+  .prev, .next,.text {font-size: 11px}
+}
+#sider
+{
+	width: 100%;
+	height: 620px;
+	position: relative;
+}
+#submit
+{
+	width: 200px;
+	height: 50px;
+	margin-left: 0px;
+	margin-top: 20px;
+	padding-top: 3px;
+	background-color:#F9BA33;
+	text-align: center;
+	border-radius: 30px;
+}
+#submit:hover
+{
+	background-color:aqua;
+	color: white;
+	
+}

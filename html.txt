@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="css/main.css" rel="stylesheet">
+	<script>document.getElementsByTagName("html")[0].className += " js";</script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/animate.css">	
+	<link rel="stylesheet" href="css/owl.carousel.css">	
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">	
+</head>
+
+<body style="background-color: black">
+	<div id="container">
+		<div class="slider"> 
+				<header>
+				<div class="logo"><h1 style="color:#F9BA33;">MIRZA</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>							
+						<li><a href="#">About</a>
+								<!--<ul>
+								<li><a href="#">1</a></li>							
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								</ul>-->
+						</li>
+						<li><a href="#">Resume</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Skills</a></li>
+						<li><a href="#">Project</a></li>
+						<li><a href="#">My Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>					
+						</nav>				
+					</header>
+			<div class="slideshow-container">
+					<div class="mySlides fade">
+					  <img src="images/sky1.jpg" style="width:100%">
+					</div>
+					<div class="mySlides fade">
+					  <img src="images/sky2.jpg" style="width:100%">
+					</div>
+					<div style="text-align:center">
+					  <span class="dot" onclick="currentSlide(1)"></span> 
+					  <span class="dot" onclick="currentSlide(2)"></span>   
+					</div>
+				</div>
+		</div>		
+		<div class="textskillbar">
+			<div class="textskillbar1"><h1 style="color: white">My Skills</h1></div>
+			<div class="textskillbar2">Skills</div>
+			<h4 style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>	
+		</div>
+		<div class="phanskillbar">
+			<div class="skillbar">
+				<p style="color: white">Photoshop</p>
+				<div class="skills photoshop">90%</div> 
+				<p style="color: white">HTML5</p>
+				<div class="skills html5">95%</div> 
+				<p style="color: white">WordPress</p>
+				<div class="skills worldpress">70%</div> 
+			</div>
+			<div class="skillbar">
+				<p style="color: white">jQuery</p>
+				<div class="skills jquery">85%</div> 
+				<p style="color: white">CSS3</p>
+				<div class="skills css3">90%</div> 
+				<p style="color: white">SEO</p>
+				<div class="skills seo">80%</div> 
+			</div>
+		</div>
+		<div class="textcarousel">
+			<div class="textcarousel1"><h1 style="color: white">Our Projects</h1></div>
+			<div class="textcarousel2">Projects</div>
+			<h4 style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>	
+		</div>
+		<div class="owl-carousel owl-theme">
+				<div class="carousel">
+					<img src="images/icon1.gif" >
+				</div>
+				<div class="carousel">
+					<img src="images/icon2.gif" >
+				</div>
+				<div class="carousel">
+					<img src="images/icon3.gif" >
+				</div>
+				<div class="carousel">
+					<img src="images/icon4.gif" >
+				</div>
+				<div class="carousel">
+					<img src="images/icon5.gif" >
+				</div>			
+			</div>		
+		<div class="textform">
+				<div class="textform1"><h1 style="color: white">Contact Me</h1></div>
+				<div class="textform2">Contact Me</div>
+				<h4 style="color: white">Far far away. behind the world mountains. far from the countries Vakalia and Consanatina</h4>
+			</div>
+		<div class="phanform">
+			<div class="hinhform">
+			<img src="images/nguoi1.gif">
+			</div>
+			<div class="form">
+  				<form action="/action_page.php">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+					<input type="submit" value="Submit">
+			  </form>
+		
+			</div>
+		</div>
+		<div class="footer">
+			<div class="textfooter"><h2 style="color: white">About</h2>
+				<br>
+				<h5 style="color: white">Far far away. behind the world mountains. far from the countries Vakalia and Consanatina. there live the blind texts</h5>
+			</div>
+			<div class="textfooter1"><h2 style="color: white">Links</h2>
+				<br>
+				<ul>
+						<li><a >Home</a></li>							
+						<li><a >About</a></li>
+						<li><a >Service</a></li>						
+						<li><a >Project</a></li>						
+						<li><a >Contact</a></li>
+				</ul>					
+			</div>
+			<div class="textfooter"><h2 style="color: white">Services</h2>
+				<br>
+				<ul>
+						<li><a >Web Design</a></li>							
+						<li><a >Web Development</a></li>
+						<li><a >Bussiness Strategy</a></li>						
+						<li><a >Data Analysis</a></li>						
+						<li><a >Graphic Design</a></li>
+				</ul>		
+			</div>
+			<div class="textfooter" style="width:35%;"><h2 style="color: white">Have a quesions?</h2>
+				<br>
+				203 Fake St.Mountain View.San Francisco.California.USA
+				<br>
+				+2 392 3929 210
+				<br>
+				info@yourdomain.com
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+	<!--Script Slider-->
+	
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	<!--Script Back to top-->
+	<a href="#" class="cd-top text-replace js-cd-top">Top</a>
+	<script src="js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="js/main.js"></script>
+	<!--Script Carousel-->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script  type="text/javascript">
+		$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+	</script>
+</body>
+</html>
